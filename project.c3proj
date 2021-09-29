@@ -57,14 +57,18 @@
 			"TimeLimit",
 			"Audio",
 			"goal",
-			"Wall"
+			"Wall",
+			"BoosterR",
+			"BoosterL"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Boosters"
+		],
 		"subfolders": []
 	},
 	"layouts": {
