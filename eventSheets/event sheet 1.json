@@ -430,6 +430,60 @@
 				}
 			],
 			"sid": 573725089823396
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 334217640741735,
+					"parameters": {
+						"object": "BoostersLR"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "apply-force",
+					"objectClass": "Ball",
+					"sid": 606717175518068,
+					"behaviorType": "Physics",
+					"parameters": {
+						"force-x": "BoostersLR.Direction",
+						"force-y": "0",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 695059489603624
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 830891005663978,
+					"parameters": {
+						"object": "BoosterUD"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "apply-force",
+					"objectClass": "Ball",
+					"sid": 859964230857305,
+					"behaviorType": "Physics",
+					"parameters": {
+						"force-x": "0",
+						"force-y": "BoosterUD.Direction",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 820109408582997
 		}
 	],
 	"sid": 821615111451167

@@ -1,7 +1,7 @@
 {
-	"name": "BoosterR",
+	"name": "BoosterU",
 	"plugin-id": "Sprite",
-	"sid": 696563416561865,
+	"sid": 547292269055529,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,39 @@
 			{
 				"frames": [
 					{
-						"width": 600,
-						"height": 438,
+						"width": 438,
+						"height": 600,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5196751,
+						"imageSpriteId": 4249608,
 						"collisionPoly": {
 							"points": [
-								0,
-								0,
 								0.5,
-								0,
-								0.9983333333333333,
-								0,
-								0.9983333333333333,
+								1,
+								0.0022831050228310223,
+								1,
+								0.0022831050228310223,
 								0.5,
-								0.9983333333333333,
-								0.997716894977169,
+								0.0022831050228310223,
+								0.0016666666666667052,
 								0.5,
-								0.997716894977169,
-								0,
-								0.997716894977169,
-								0,
-								0.5
+								0.0016666666666667052,
+								1,
+								0.0016666666666667052,
+								1,
+								0.5,
+								1,
+								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 260393091049857,
+				"sid": 574218326693414,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

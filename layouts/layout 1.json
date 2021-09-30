@@ -580,8 +580,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 252.1492208431552,
-						"y": 30.42837300150731,
+						"x": 458.1346189959776,
+						"y": 55.47220160891894,
 						"width": 81.8036908014617,
 						"height": 59.716694285066986,
 						"originX": 0.5,
@@ -615,6 +615,68 @@
 						"y": 196.38243756484152,
 						"width": 81.8036908014617,
 						"height": 59.716694285066986,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BoosterU",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {
+						"Direction": 3000
+					},
+					"behaviors": {},
+					"world": {
+						"x": 464.437298643598,
+						"y": -60.31674993387492,
+						"width": 59.71669428506704,
+						"height": 81.80369080146163,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BoosterD",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {
+						"Direction": -3000
+					},
+					"behaviors": {},
+					"world": {
+						"x": 545.8298033521555,
+						"y": -54.68190711785951,
+						"width": 59.71669428506704,
+						"height": 81.80369080146163,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
