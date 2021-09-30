@@ -58,7 +58,8 @@
 			"Audio",
 			"goal",
 			"Wall",
-			"Shuriken"
+			"Shuriken",
+			"BouncePad"
 		],
 		"subfolders": [
 			{

@@ -589,6 +589,60 @@
 				}
 			],
 			"sid": 409743059433717
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 769711163284485,
+					"parameters": {
+						"object": "BouncePad"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "apply-force",
+					"objectClass": "Ball",
+					"sid": 771407574538545,
+					"behaviorType": "Physics",
+					"parameters": {
+						"force-x": "-(Ball.Physics.VelocityX)*5",
+						"force-y": "-(Ball.Physics.VelocityY)*5",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 871956285361917
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Shuriken",
+					"sid": 486857180295671,
+					"parameters": {
+						"object": "BouncePad"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "apply-force",
+					"objectClass": "Shuriken",
+					"sid": 965622937857905,
+					"behaviorType": "Physics",
+					"parameters": {
+						"force-x": "-(Shuriken.Physics.VelocityX)*5",
+						"force-y": "-(Shuriken.Physics.VelocityY)*5",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 440996286301850
 		}
 	],
 	"sid": 821615111451167
