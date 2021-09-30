@@ -287,57 +287,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Ball",
-					"sid": 664455994616804,
-					"parameters": {
-						"object": "Shuriken"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Ball",
-					"sid": 301222856916616
-				},
-				{
-					"id": "set-boolean-instvar",
-					"objectClass": "Ball",
-					"sid": 905759436069090,
-					"parameters": {
-						"instance-variable": "fellOut",
-						"value": "true"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "Text",
-					"sid": 409762086385343,
-					"parameters": {
-						"text": "\"Hit!\""
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 672294098512411,
-					"parameters": {
-						"seconds": "2.0"
-					}
-				},
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 983466415047611
-				}
-			],
-			"sid": 272052640323378
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
 					"sid": 410091946186621,
@@ -515,9 +464,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Ball",
-					"sid": 656934606466932,
+					"sid": 830891005663978,
 					"parameters": {
-						"object": "BoosterD"
+						"object": "BoosterUD"
 					}
 				}
 			],
@@ -525,70 +474,16 @@
 				{
 					"id": "apply-force",
 					"objectClass": "Ball",
-					"sid": 872456584550769,
+					"sid": 859964230857305,
 					"behaviorType": "Physics",
 					"parameters": {
 						"force-x": "0",
-						"force-y": "2500",
+						"force-y": "BoosterUD.Direction",
 						"image-point": "0"
 					}
 				}
 			],
 			"sid": 820109408582997
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Shuriken",
-					"sid": 643866236158709,
-					"parameters": {
-						"object": "BoostersLR"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "apply-force",
-					"objectClass": "Shuriken",
-					"sid": 630895976525469,
-					"behaviorType": "Physics",
-					"parameters": {
-						"force-x": "BoostersLR.Direction + 250",
-						"force-y": "0",
-						"image-point": "0"
-					}
-				}
-			],
-			"sid": 420336017646695
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Shuriken",
-					"sid": 109731579949521,
-					"parameters": {
-						"object": "BoosterD"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "apply-force",
-					"objectClass": "Shuriken",
-					"sid": 667055678808691,
-					"behaviorType": "Physics",
-					"parameters": {
-						"force-x": "0",
-						"force-y": "2500",
-						"image-point": "0"
-					}
-				}
-			],
-			"sid": 409743059433717
 		}
 	],
 	"sid": 821615111451167

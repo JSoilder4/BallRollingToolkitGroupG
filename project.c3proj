@@ -57,15 +57,15 @@
 			"TimeLimit",
 			"Audio",
 			"goal",
-			"Wall",
-			"Shuriken"
+			"Wall"
 		],
 		"subfolders": [
 			{
 				"items": [
 					"BoosterD",
 					"BoosterL",
-					"BoosterR"
+					"BoosterR",
+					"BoosterU"
 				],
 				"subfolders": [],
 				"name": "Boosters"
@@ -76,7 +76,8 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"BoostersLR"
+			"BoostersLR",
+			"BoosterUD"
 		],
 		"subfolders": []
 	},
