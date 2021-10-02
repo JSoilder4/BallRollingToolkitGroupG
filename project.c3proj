@@ -59,7 +59,9 @@
 			"goal",
 			"Wall",
 			"Shuriken",
-			"BouncePad"
+			"BouncePad",
+			"lava",
+			"Text2"
 		],
 		"subfolders": [
 			{
@@ -70,6 +72,13 @@
 				],
 				"subfolders": [],
 				"name": "Boosters"
+			},
+			{
+				"items": [
+					"Coins"
+				],
+				"subfolders": [],
+				"name": "Collectables"
 			}
 		]
 	},
@@ -99,7 +108,13 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "420998__eponn__boost.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 436672821830787
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
