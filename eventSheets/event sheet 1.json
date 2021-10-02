@@ -12,6 +12,16 @@
 			"sid": 662086445635640
 		},
 		{
+			"eventType": "variable",
+			"name": "Coins",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 287812471706271
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -123,6 +133,14 @@
 					"sid": 967286825282998,
 					"parameters": {
 						"text": "\"Time: \" & TimeLimit"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text2",
+					"sid": 994778353937515,
+					"parameters": {
+						"text": "\"Coins :  \" & Coins"
 					}
 				}
 			],
@@ -282,6 +300,57 @@
 				}
 			],
 			"sid": 832716074618477
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 668177272094996,
+					"parameters": {
+						"object": "lava"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ball",
+					"sid": 593987668751248
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Ball",
+					"sid": 648954924587729,
+					"parameters": {
+						"instance-variable": "fellOut",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 982508911535992,
+					"parameters": {
+						"text": "\"Hit!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 911881671402838,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 313435626266622
+				}
+			],
+			"sid": 852781808877663
 		},
 		{
 			"eventType": "block",
@@ -643,6 +712,41 @@
 				}
 			],
 			"sid": 440996286301850
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Collectables",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Ball",
+							"sid": 618533432548941,
+							"parameters": {
+								"object": "Coins"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 718561709624555,
+							"parameters": {
+								"variable": "Coins",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 620080746194832
+				}
+			],
+			"sid": 506997660983027
 		}
 	],
 	"sid": 821615111451167
