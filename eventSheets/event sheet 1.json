@@ -73,6 +73,32 @@
 					"parameters": {
 						"text": "\"Time: \" & TimeLimit"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 481521265717293,
+					"parameters": {
+						"variable": "Coins",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Coins",
+					"sid": 852073121604593,
+					"parameters": {
+						"instance-variable": "PerfectAmount",
+						"value": "Coins.Count"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Coinstext",
+					"sid": 336118014637583,
+					"parameters": {
+						"text": "\"Coins :  \" & Coins & \" / \" & Coins.PerfectAmount"
+					}
 				}
 			],
 			"sid": 187074413518792
@@ -133,14 +159,6 @@
 					"sid": 967286825282998,
 					"parameters": {
 						"text": "\"Time: \" & TimeLimit"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "Text2",
-					"sid": 994778353937515,
-					"parameters": {
-						"text": "\"Coins :  \" & Coins"
 					}
 				}
 			],
@@ -280,9 +298,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "Text",
-					"sid": 333335227611772,
+					"sid": 630527163965410,
 					"parameters": {
-						"text": "\"Fall Out!\""
+						"text": "\"FALL OUT\""
 					}
 				},
 				{
@@ -331,9 +349,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "Text",
-					"sid": 982508911535992,
+					"sid": 734292435478335,
 					"parameters": {
-						"text": "\"Hit!\""
+						"text": "\"FALL OUT\""
 					}
 				},
 				{
@@ -382,9 +400,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "Text",
-					"sid": 409762086385343,
+					"sid": 159244576628402,
 					"parameters": {
-						"text": "\"Hit!\""
+						"text": "\"HIT\""
 					}
 				},
 				{
@@ -448,9 +466,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "Text",
-					"sid": 760893179154801,
+					"sid": 319683482608880,
 					"parameters": {
-						"text": "\"Time Over!\""
+						"text": "\"TIME OVER\""
 					}
 				},
 				{
@@ -478,6 +496,16 @@
 					"sid": 949790539751948,
 					"parameters": {
 						"object": "goal"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 594867617612172,
+					"parameters": {
+						"variable": "Coins",
+						"comparison": 2,
+						"value": "Coins.PerfectAmount"
 					}
 				}
 			],
@@ -514,6 +542,62 @@
 				}
 			],
 			"sid": 964298048848558
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ball",
+					"sid": 609036048582263,
+					"parameters": {
+						"object": "goal"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 925147392983125,
+					"parameters": {
+						"variable": "Coins",
+						"comparison": 5,
+						"value": "Coins.PerfectAmount"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Ball",
+					"sid": 956063758694071,
+					"parameters": {
+						"instance-variable": "reachedGoal",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 557411161904556,
+					"parameters": {
+						"text": "\"PERFECT!!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 856725619004034,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 397682804264357
+				}
+			],
+			"sid": 476507880449522
 		},
 		{
 			"eventType": "block",
@@ -561,6 +645,15 @@
 					"parameters": {
 						"object": "BoostersLR"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Ball",
+					"sid": 122193433078538,
+					"parameters": {
+						"instance-variable": "reachedGoal"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -588,6 +681,15 @@
 					"parameters": {
 						"object": "BoosterD"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Ball",
+					"sid": 750217900262991,
+					"parameters": {
+						"instance-variable": "reachedGoal"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -669,6 +771,15 @@
 					"parameters": {
 						"object": "BouncePad"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Ball",
+					"sid": 186385093293678,
+					"parameters": {
+						"instance-variable": "reachedGoal"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -741,6 +852,19 @@
 								"variable": "Coins",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Coinstext",
+							"sid": 478489421753316,
+							"parameters": {
+								"text": "\"Coins :  \" & Coins & \" / \" & Coins.PerfectAmount"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Coins",
+							"sid": 713510438280814
 						}
 					],
 					"sid": 620080746194832

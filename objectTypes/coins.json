@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 964976366107388,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "PerfectAmount",
+			"type": "number",
+			"desc": "",
+			"sid": 778042245515818
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

@@ -597,37 +597,6 @@
 					}
 				},
 				{
-					"type": "BoosterL",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 20,
-					"instanceVariables": {
-						"Direction": -100
-					},
-					"behaviors": {},
-					"world": {
-						"x": 283.24513096741293,
-						"y": 366.9308973694998,
-						"width": 81.8036908014617,
-						"height": 59.716694285066986,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "BoosterD",
 					"properties": {
 						"initially-visible": true,
@@ -640,8 +609,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 85.02340741805949,
-						"y": 296.6757514140718,
+						"x": 796.5185238718544,
+						"y": 98.32864397605508,
 						"width": 59.71669428506704,
 						"height": 81.80369080146163,
 						"originX": 0.5,
@@ -716,8 +685,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 240.2953966285479,
-						"y": 266.8748956140802,
+						"x": 241.0467114294495,
+						"y": 295.4248580483402,
 						"width": 50,
 						"height": 25,
 						"originX": 0.5,
@@ -728,7 +697,7 @@
 							1,
 							1
 						],
-						"angle": 0.8344627590886429,
+						"angle": 0.8769796850035942,
 						"zElevation": 0
 					}
 				},
@@ -887,11 +856,75 @@
 						"live-preview": false
 					},
 					"uid": 29,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"PerfectAmount": 0
+					},
 					"behaviors": {},
 					"world": {
-						"x": 560.2524311802244,
-						"y": 249.184148248204,
+						"x": 213.14499316369518,
+						"y": 178.56055696345564,
+						"width": 45.355371900826185,
+						"height": 48.360631104432656,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coins",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {
+						"PerfectAmount": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 376.0342918757118,
+						"y": 382.79537454858746,
+						"width": 45.355371900826185,
+						"height": 48.360631104432656,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coins",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {
+						"PerfectAmount": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 596.9209594726562,
+						"y": 383.54669189453125,
 						"width": 45.355371900826185,
 						"height": 48.360631104432656,
 						"originX": 0.5,
@@ -1022,7 +1055,7 @@
 					}
 				},
 				{
-					"type": "Text2",
+					"type": "Coinstext",
 					"properties": {
 						"text": "Coin _____",
 						"enable-bbcode": true,
@@ -1053,35 +1086,6 @@
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coins",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 31,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 656.0221188471425,
-						"y": 12.303111398067806,
-						"width": 17.55672426746787,
-						"height": 19.810668670172674,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
