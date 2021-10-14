@@ -592,9 +592,12 @@
 					}
 				},
 				{
-					"id": "restart-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 397682804264357
+					"sid": 189884018445042,
+					"parameters": {
+						"layout": "\"Layout 2\""
+					}
 				}
 			],
 			"sid": 476507880449522

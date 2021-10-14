@@ -36,7 +36,7 @@
 						},
 						"ScrollTo": {
 							"properties": {
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
@@ -999,7 +999,17 @@
 					},
 					"uid": 16,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 732.2798055624444,
 						"y": 1.5014354869173872,
@@ -1083,7 +1093,17 @@
 					},
 					"uid": 30,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 571.4992597366434,
 						"y": 1.2502021560267593,
