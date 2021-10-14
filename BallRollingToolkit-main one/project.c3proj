@@ -112,7 +112,8 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"BoostersLR"
+			"BoostersLR",
+			"DeadlyHazards"
 		],
 		"subfolders": []
 	},
