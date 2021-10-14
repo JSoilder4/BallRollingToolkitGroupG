@@ -56,6 +56,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
@@ -104,14 +112,14 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"BoostersLR",
-			"DeadlyHazards"
+			"BoostersLR"
 		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
 			"Layout 1",
+			"Layout 3",
 			"Layout 2"
 		],
 		"subfolders": []

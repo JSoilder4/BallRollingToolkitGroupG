@@ -36,13 +36,13 @@
 						},
 						"ScrollTo": {
 							"properties": {
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
 					"world": {
-						"x": 79,
-						"y": 34,
+						"x": 72,
+						"y": 29,
 						"width": 49.93370004315722,
 						"height": 50.43808085167396,
 						"originX": 0.5050505050505051,
@@ -999,7 +999,17 @@
 					},
 					"uid": 16,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 732.2798055624444,
 						"y": 1.5014354869173872,
@@ -1083,7 +1093,17 @@
 					},
 					"uid": 30,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Anchor": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 571.4992597366434,
 						"y": 1.2502021560267593,
