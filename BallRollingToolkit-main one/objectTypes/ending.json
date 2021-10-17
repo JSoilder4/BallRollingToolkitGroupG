@@ -1,16 +1,10 @@
 {
-	"name": "Platform",
+	"name": "Ending",
 	"plugin-id": "Sprite",
-	"sid": 661798137990305,
+	"sid": 395532497292336,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Physics",
-			"name": "Physics",
-			"sid": 809632668250943
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8948337,
+						"imageSpriteId": 2581091,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 388703758234549,
+				"sid": 741269248607097,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

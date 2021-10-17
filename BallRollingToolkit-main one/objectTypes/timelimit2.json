@@ -1,0 +1,15 @@
+{
+	"name": "TimeLimit2",
+	"plugin-id": "Text",
+	"sid": 346064487239929,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 418451764621467
+		}
+	],
+	"effectTypes": []
+}

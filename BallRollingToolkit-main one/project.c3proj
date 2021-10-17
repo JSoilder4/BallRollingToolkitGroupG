@@ -39,6 +39,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Physics",
 			"name": "Physics",
@@ -69,6 +77,22 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "h7wm4ux11kh",
@@ -87,7 +111,40 @@
 			"lava",
 			"Coinstext",
 			"lava2",
-			"Platform2"
+			"Platform2",
+			"goal2",
+			"Text2",
+			"Controls",
+			"goal3",
+			"Text3",
+			"goal4",
+			"Complete",
+			"placeholdll",
+			"Text4",
+			"Mouse",
+			"Button",
+			"Text5",
+			"goal5",
+			"Text6",
+			"good",
+			"Text7",
+			"Text8",
+			"goal6",
+			"goal7",
+			"endtutorial",
+			"TimeLimit2",
+			"Fan",
+			"Fan2",
+			"weabTranslation",
+			"Shuriken2",
+			"lava3",
+			"Text9",
+			"Platform3",
+			"goal8",
+			"Ending",
+			"Text10",
+			"Button2",
+			"Text11"
 		],
 		"subfolders": [
 			{
@@ -120,7 +177,14 @@
 		"items": [
 			"Layout 1",
 			"Layout 3",
-			"Layout 2"
+			"Layout 2",
+			"Tutorial 1",
+			"Tutorial 2",
+			"Tutorial 3",
+			"Title Screen",
+			"Tutorial 4",
+			"Tutorial 5",
+			"End Screen"
 		],
 		"subfolders": []
 	},

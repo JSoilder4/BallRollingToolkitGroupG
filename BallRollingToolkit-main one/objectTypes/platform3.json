@@ -1,14 +1,19 @@
 {
-	"name": "Platform",
+	"name": "Platform3",
 	"plugin-id": "Sprite",
-	"sid": 661798137990305,
+	"sid": 997501895159423,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Physics",
 			"name": "Physics",
-			"sid": 809632668250943
+			"sid": 473886341822247
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 571366841818204
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +29,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8948337,
+						"imageSpriteId": 1914022,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 388703758234549,
+				"sid": 819351673556963,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

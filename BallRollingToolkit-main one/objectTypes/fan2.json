@@ -1,14 +1,24 @@
 {
-	"name": "Platform",
+	"name": "Fan2",
 	"plugin-id": "Sprite",
-	"sid": 661798137990305,
+	"sid": 338554847382828,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Physics",
 			"name": "Physics",
-			"sid": 809632668250943
+			"sid": 736282620916164
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 151551382564014
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 326520849482321
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +34,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8948337,
+						"imageSpriteId": 9821371,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 388703758234549,
+				"sid": 388290283485775,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
