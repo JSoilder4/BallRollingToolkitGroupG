@@ -137,9 +137,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 286.68040841603295,
-						"y": 159.3602527232535,
-						"width": 263.28802677412773,
+						"x": 301,
+						"y": 134,
+						"width": 231.28802677412773,
 						"height": 72.97520661157017,
 						"originX": 0,
 						"originY": 0,
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -669,7 +669,9 @@
 						"live-preview": false
 					},
 					"uid": 290,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": ""
+					},
 					"behaviors": {},
 					"world": {
 						"x": 409.58918976586716,
@@ -1247,8 +1249,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 409.7499377825505,
-						"y": 232.44918686974992,
+						"x": 411,
+						"y": 233,
 						"width": 91.57103008439896,
 						"height": 42.83340259646164,
 						"originX": 0.5,
@@ -1289,9 +1291,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 388.2663291730164,
-						"y": 222.57799047032097,
-						"width": 49.812171299774604,
+						"x": 394,
+						"y": 221,
+						"width": 32.812171299774604,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -1331,8 +1333,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 276.2020155429415,
-						"y": 136.76317616602037,
+						"x": 218,
+						"y": -46,
 						"width": 508.03906836964745,
 						"height": 30,
 						"originX": 0,

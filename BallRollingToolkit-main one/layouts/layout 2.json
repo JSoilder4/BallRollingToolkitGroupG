@@ -1084,7 +1084,9 @@
 						"live-preview": false
 					},
 					"uid": 134,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": ""
+					},
 					"behaviors": {},
 					"world": {
 						"x": 1028,
@@ -1104,7 +1106,7 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "PERFECT",
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,

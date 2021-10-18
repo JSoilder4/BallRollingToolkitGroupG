@@ -267,7 +267,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "As you progress you'll encounter coins. You will need to collect them all in order to progress to the next level. You'll know right away that you finished once you see the \"perfect\" icon to indicate that your done.",
+						"text": "As you progress you'll encounter coins. You will need to collect them all in order to progress to the next level. You'll know right away that you finished once you see the \"perfect\" icon to indicate that you're done.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -523,7 +523,9 @@
 						"live-preview": false
 					},
 					"uid": 263,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": "Tutorial 3"
+					},
 					"behaviors": {},
 					"world": {
 						"x": 768.5122120754778,
@@ -543,7 +545,7 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "PERFECT",
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,

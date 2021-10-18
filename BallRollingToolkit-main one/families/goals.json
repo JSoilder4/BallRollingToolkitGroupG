@@ -1,0 +1,25 @@
+{
+	"name": "Goals",
+	"plugin-id": "Sprite",
+	"sid": 525606474895345,
+	"instanceVariables": [
+		{
+			"name": "NextLevel",
+			"type": "string",
+			"desc": "",
+			"sid": 802061238681923
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"goal",
+		"goal2",
+		"goal3",
+		"goal4",
+		"goal5",
+		"goal6",
+		"goal7",
+		"goal8"
+	]
+}

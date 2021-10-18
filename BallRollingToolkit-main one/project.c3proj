@@ -101,7 +101,7 @@
 			"Ball",
 			"Platform",
 			"Keyboard",
-			"Text",
+			"PERFECT",
 			"TimeLimit",
 			"Audio",
 			"goal",
@@ -126,8 +126,6 @@
 			"Text5",
 			"goal5",
 			"Text6",
-			"good",
-			"Text7",
 			"Text8",
 			"goal6",
 			"goal7",
@@ -137,7 +135,7 @@
 			"Fan2",
 			"weabTranslation",
 			"Shuriken2",
-			"lava3",
+			"lavaPsyche",
 			"Text9",
 			"Platform3",
 			"goal8",
@@ -151,7 +149,7 @@
 				"items": [
 					"BoosterD",
 					"BoosterL",
-					"BoosterR"
+					"Booster"
 				],
 				"subfolders": [],
 				"name": "Boosters"
@@ -169,7 +167,9 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"BoostersLR"
+			"BoostersLR",
+			"Hazards",
+			"Goals"
 		],
 		"subfolders": []
 	},

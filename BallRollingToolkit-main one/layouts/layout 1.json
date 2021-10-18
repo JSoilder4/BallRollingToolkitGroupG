@@ -331,7 +331,9 @@
 						"live-preview": false
 					},
 					"uid": 18,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": ""
+					},
 					"behaviors": {},
 					"world": {
 						"x": 779.0350070909992,
@@ -571,7 +573,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1028,7 +1030,7 @@
 					}
 				},
 				{
-					"type": "Text",
+					"type": "PERFECT",
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,

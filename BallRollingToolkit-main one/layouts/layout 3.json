@@ -977,7 +977,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1008,7 +1008,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1039,7 +1039,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2602,7 +2602,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2964,7 +2964,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -3088,7 +3088,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -3119,7 +3119,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4947,9 +4947,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 4193,
-						"y": 437,
-						"width": 492.5002683373016,
+						"x": 4192.517862634102,
+						"y": 437.0082890383697,
+						"width": 491.5358511086049,
 						"height": 157.9899526999148,
 						"originX": 0.5,
 						"originY": -0.4,
@@ -6050,9 +6050,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 4312,
-						"y": 613,
-						"width": 252,
+						"x": 4304.297004398828,
+						"y": 612.9388651142764,
+						"width": 236.59352360779013,
 						"height": 138.0381696455905,
 						"originX": 0.5,
 						"originY": -0.4,
@@ -9549,7 +9549,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -9668,7 +9668,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -9743,7 +9743,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -9937,7 +9937,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10056,7 +10056,7 @@
 					}
 				},
 				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10204,7 +10204,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10233,7 +10233,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10262,7 +10262,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10291,7 +10291,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10320,7 +10320,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10349,7 +10349,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10378,7 +10378,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10407,7 +10407,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10436,7 +10436,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10465,7 +10465,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10626,7 +10626,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10655,7 +10655,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10684,7 +10684,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10713,7 +10713,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10742,7 +10742,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10771,7 +10771,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -10800,7 +10800,7 @@
 					}
 				},
 				{
-					"type": "lava3",
+					"type": "lavaPsyche",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -11266,7 +11266,9 @@
 						"live-preview": false
 					},
 					"uid": 491,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": ""
+					},
 					"behaviors": {},
 					"world": {
 						"x": 22778,

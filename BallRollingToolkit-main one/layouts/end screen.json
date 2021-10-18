@@ -74,7 +74,9 @@
 						"live-preview": false
 					},
 					"uid": 516,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": ""
+					},
 					"behaviors": {},
 					"world": {
 						"x": 419,

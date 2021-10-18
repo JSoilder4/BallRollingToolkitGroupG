@@ -1,0 +1,14 @@
+{
+	"name": "Hazards",
+	"plugin-id": "Sprite",
+	"sid": 997738123835570,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"lava",
+		"lava2",
+		"Shuriken",
+		"Shuriken2"
+	]
+}

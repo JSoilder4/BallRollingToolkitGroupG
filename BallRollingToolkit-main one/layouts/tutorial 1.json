@@ -290,8 +290,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 280.0865919885556,
-						"y": 186.07455482167643,
+						"x": 256,
+						"y": 67,
 						"width": 350.0000000000001,
 						"height": 68.18181818181819,
 						"originX": 0,
@@ -309,7 +309,7 @@
 				{
 					"type": "Controls",
 					"properties": {
-						"text": "Move by using left(<) and right(>) on the Keyboard",
+						"text": "Move by using the left or right arrow on the Keyboard",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -332,9 +332,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 346.1963309295908,
-						"y": 237.85820436083583,
-						"width": 190.90909090909105,
+						"x": 313,
+						"y": 138,
+						"width": 212.90909090909105,
 						"height": 53.966942148760324,
 						"originX": 0,
 						"originY": 0,
@@ -358,7 +358,9 @@
 						"live-preview": false
 					},
 					"uid": 250,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"NextLevel": "Tutorial 2"
+					},
 					"behaviors": {},
 					"world": {
 						"x": 772.2294800813532,
@@ -378,125 +380,7 @@
 					}
 				},
 				{
-					"type": "BoosterD",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 315,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 501.53640648478586,
-						"y": 310.77830754143235,
-						"width": 29.441465065782317,
-						"height": 49.7056989565618,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.705475295824497,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BoosterL",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 316,
-					"instanceVariables": {
-						"Direction": 100
-					},
-					"behaviors": {},
-					"world": {
-						"x": 343.76026277950524,
-						"y": 310.77830249720455,
-						"width": 39.36889556724276,
-						"height": 34.093163035311825,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BoosterD",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 317,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 158.5610834547311,
-						"y": 198.08104197375314,
-						"width": 59.71669428506704,
-						"height": 81.80369080146163,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BoosterD",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 318,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 692.7461344706752,
-						"y": 186.81128946557965,
-						"width": 59.71669428506704,
-						"height": 81.80369080146163,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BoosterR",
+					"type": "Booster",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -510,8 +394,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 437.2989809192455,
-						"y": 409.9518764160523,
+						"x": 420,
+						"y": 418,
 						"width": 81.8036908014617,
 						"height": 59.716694285066986,
 						"originX": 0.5,
