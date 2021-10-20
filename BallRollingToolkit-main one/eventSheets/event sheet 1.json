@@ -397,10 +397,10 @@
 						{
 							"id": "compare-y",
 							"objectClass": "Ball",
-							"sid": 129975276853112,
+							"sid": 174177159206096,
 							"parameters": {
 								"comparison": 5,
-								"y-co-ordinate": "1000"
+								"y-co-ordinate": "5000"
 							}
 						}
 					],
