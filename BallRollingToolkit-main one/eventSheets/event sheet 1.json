@@ -511,7 +511,26 @@
 							]
 						}
 					],
-					"sid": 234518272488795
+					"sid": 234518272488795,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 846063667942888,
+									"parameters": {
+										"variable": "Coins",
+										"comparison": 0,
+										"value": "Coins.PerfectAmount"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 632162226359334
+						}
+					]
 				},
 				{
 					"functionName": "Goal",
@@ -543,7 +562,7 @@
 						{
 							"id": "set-text",
 							"objectClass": "PERFECT",
-							"sid": 472631514973365,
+							"sid": 484322813099528,
 							"parameters": {
 								"text": "\"PERFECT!!\""
 							}
