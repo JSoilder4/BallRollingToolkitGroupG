@@ -385,8 +385,8 @@
 						}
 					},
 					"world": {
-						"x": 1258.1794561337974,
-						"y": 461.7734741711954,
+						"x": 1247,
+						"y": 463,
 						"width": 26.108189331329584,
 						"height": 737.0144240306842,
 						"originX": 0.5,
@@ -755,10 +755,10 @@
 						}
 					},
 					"world": {
-						"x": 1669,
-						"y": 675,
+						"x": 2135.9866279422026,
+						"y": 672.9515549486913,
 						"width": 26.108189331329584,
-						"height": 1381.8064576107543,
+						"height": 447.82421622935146,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2107,8 +2107,8 @@
 						}
 					},
 					"world": {
-						"x": 7173,
-						"y": 798,
+						"x": 7212,
+						"y": 665,
 						"width": 143.63830839609793,
 						"height": 25,
 						"originX": 0.5,
@@ -2119,7 +2119,7 @@
 							1,
 							1
 						],
-						"angle": 6.272186976367437,
+						"angle": 5.635964408082689,
 						"zElevation": 0
 					}
 				},
@@ -2716,6 +2716,50 @@
 							1
 						],
 						"angle": 1.1459657679665434,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Wall",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 380,
+					"instanceVariables": {},
+					"behaviors": {
+						"Physics": {
+							"properties": {
+								"immovable": true,
+								"collision-mask": "use-collision-polygon",
+								"prevent-rotation": false,
+								"density": 1,
+								"friction": 0.5,
+								"elasticity": 0.2,
+								"linear-damping": 0,
+								"angular-damping": 0.01,
+								"bullet": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1922,
+						"y": 497,
+						"width": 26.108189331329584,
+						"height": 334.89896612294683,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.278292146610476,
 						"zElevation": 0
 					}
 				}
