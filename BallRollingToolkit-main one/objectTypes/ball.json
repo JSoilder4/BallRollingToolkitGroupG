@@ -15,6 +15,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 458463448251625
+		},
+		{
+			"name": "bouncing",
+			"type": "boolean",
+			"desc": "",
+			"sid": 336913234529416
 		}
 	],
 	"behaviorTypes": [

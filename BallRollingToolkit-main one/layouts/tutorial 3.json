@@ -17,7 +17,8 @@
 					"uid": 265,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {

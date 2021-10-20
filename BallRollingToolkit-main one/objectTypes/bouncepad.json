@@ -3,8 +3,21 @@
 	"plugin-id": "Sprite",
 	"sid": 292701188643391,
 	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
+	"instanceVariables": [
+		{
+			"name": "power",
+			"type": "number",
+			"desc": "",
+			"sid": 647858530245472
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 862500135509913
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

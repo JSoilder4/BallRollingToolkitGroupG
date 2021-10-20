@@ -234,8 +234,25 @@
 						"live-preview": false
 					},
 					"uid": 130,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"power": 0
+					},
+					"behaviors": {
+						"Physics": {
+							"properties": {
+								"immovable": true,
+								"collision-mask": "use-collision-polygon",
+								"prevent-rotation": false,
+								"density": 1,
+								"friction": 0.5,
+								"elasticity": 1,
+								"linear-damping": 0,
+								"angular-damping": 0.01,
+								"bullet": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 109.87409910414155,
 						"y": 374.41918944086376,
@@ -338,8 +355,25 @@
 						"live-preview": false
 					},
 					"uid": 135,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"power": 0
+					},
+					"behaviors": {
+						"Physics": {
+							"properties": {
+								"immovable": true,
+								"collision-mask": "use-collision-polygon",
+								"prevent-rotation": false,
+								"density": 1,
+								"friction": 0.5,
+								"elasticity": 1,
+								"linear-damping": 0,
+								"angular-damping": 0.01,
+								"bullet": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 1154.9285468091562,
 						"y": 469.48957074031097,
@@ -444,7 +478,8 @@
 					"uid": 138,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {

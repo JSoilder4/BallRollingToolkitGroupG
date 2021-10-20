@@ -17,7 +17,8 @@
 					"uid": 2,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {
@@ -583,7 +584,8 @@
 					},
 					"uid": 19,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -663,8 +665,8 @@
 						}
 					},
 					"world": {
-						"x": 331.8305658788987,
-						"y": 50.62077886408008,
+						"x": -54,
+						"y": -78,
 						"width": 60,
 						"height": 60,
 						"originX": 0.5050505050505051,
@@ -689,8 +691,25 @@
 						"live-preview": false
 					},
 					"uid": 21,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"power": 0
+					},
+					"behaviors": {
+						"Physics": {
+							"properties": {
+								"immovable": true,
+								"collision-mask": "use-collision-polygon",
+								"prevent-rotation": false,
+								"density": 1,
+								"friction": 0.5,
+								"elasticity": 1,
+								"linear-damping": 0,
+								"angular-damping": 0.01,
+								"bullet": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 241.0467114294495,
 						"y": 295.4248580483402,

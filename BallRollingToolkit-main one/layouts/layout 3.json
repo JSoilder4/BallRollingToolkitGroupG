@@ -987,7 +987,8 @@
 					},
 					"uid": 52,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -1018,7 +1019,8 @@
 					},
 					"uid": 55,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -1049,7 +1051,8 @@
 					},
 					"uid": 61,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -2429,7 +2432,8 @@
 					"uid": 92,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {
@@ -2612,7 +2616,8 @@
 					},
 					"uid": 106,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -2974,7 +2979,8 @@
 					},
 					"uid": 117,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -3098,7 +3104,8 @@
 					},
 					"uid": 123,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -3129,7 +3136,8 @@
 					},
 					"uid": 124,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -9559,7 +9567,8 @@
 					},
 					"uid": 444,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -9678,7 +9687,8 @@
 					},
 					"uid": 447,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -9753,7 +9763,8 @@
 					},
 					"uid": 449,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -9947,7 +9958,8 @@
 					},
 					"uid": 454,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
@@ -10066,7 +10078,8 @@
 					},
 					"uid": 457,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {

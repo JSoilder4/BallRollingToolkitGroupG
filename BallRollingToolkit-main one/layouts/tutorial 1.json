@@ -17,7 +17,8 @@
 					"uid": 144,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {
@@ -309,7 +310,7 @@
 				{
 					"type": "Controls",
 					"properties": {
-						"text": "Move by using the left or right arrow on the Keyboard",
+						"text": "Move by using the left or right arrow on the Keyboard\n\nPress R to restart the current level",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -335,7 +336,7 @@
 						"x": 313,
 						"y": 138,
 						"width": 212.90909090909105,
-						"height": 53.966942148760324,
+						"height": 110.96694214876032,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -390,16 +391,59 @@
 					},
 					"uid": 319,
 					"instanceVariables": {
-						"Direction": 100
+						"Direction": 100,
+						"power": 100
 					},
 					"behaviors": {},
 					"world": {
-						"x": 420,
-						"y": 418,
+						"x": 417,
+						"y": 420,
 						"width": 81.8036908014617,
 						"height": 59.716694285066986,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text",
+					"properties": {
+						"text": "These are boosters. They boost you in a direction!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 315,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 255,
+						"y": 325,
+						"width": 370,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

@@ -17,7 +17,8 @@
 					"uid": 307,
 					"instanceVariables": {
 						"fellOut": false,
-						"reachedGoal": false
+						"reachedGoal": false,
+						"bouncing": false
 					},
 					"behaviors": {
 						"Physics": {
@@ -441,9 +442,9 @@
 					},
 					"world": {
 						"x": 320.1643560740574,
-						"y": 391.8720193657993,
+						"y": 399.3720193657993,
 						"width": 110.94795386585315,
-						"height": 139.6752265931257,
+						"height": 124.6752265931257,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -510,8 +511,25 @@
 						"live-preview": false
 					},
 					"uid": 322,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"power": 100
+					},
+					"behaviors": {
+						"Physics": {
+							"properties": {
+								"immovable": true,
+								"collision-mask": "use-collision-polygon",
+								"prevent-rotation": false,
+								"density": 1,
+								"friction": 0.5,
+								"elasticity": 1,
+								"linear-damping": 0,
+								"angular-damping": 0.01,
+								"bullet": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 195,
 						"y": 409,
@@ -525,7 +543,7 @@
 							1,
 							1
 						],
-						"angle": 0.026771566245985312,
+						"angle": 0.0059561954570725995,
 						"zElevation": 0
 					}
 				},
@@ -878,8 +896,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 287.51986971768474,
-						"y": 309.64060129212936,
+						"x": 292.5890244699618,
+						"y": 314.2262185954395,
 						"width": 25.520661157024733,
 						"height": 25.22013523666405,
 						"originX": 0.5,
@@ -909,8 +927,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 334.62727620778986,
-						"y": 309.6406164248128,
+						"x": 337.57239855759883,
+						"y": 312.5857387746217,
 						"width": 22.21487603305775,
 						"height": 24.393688955672275,
 						"originX": 0.5,
@@ -1125,6 +1143,48 @@
 						"height": 209.09671419643158,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "velocityTest",
+					"properties": {
+						"text": "",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 316,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 133,
+						"y": -51,
+						"width": 694,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
