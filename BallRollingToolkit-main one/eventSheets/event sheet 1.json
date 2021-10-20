@@ -137,6 +137,17 @@
 						"object": "BouncePad",
 						"state": "enable"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 760301067893817,
+					"parameters": {
+						"audio-file": "251530__speedenza__background-theme-1",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 187074413518792
@@ -377,6 +388,17 @@
 							"id": "destroy",
 							"objectClass": "Coins",
 							"sid": 713510438280814
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 478561102170556,
+							"parameters": {
+								"audio-file": "341695__projectsu012__coins-1",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 620080746194832
